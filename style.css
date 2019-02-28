@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica Neue, Helvetica, Arimo, Liberation Sans, Lucida Grande, sans-serif;
-    background:#f4f0e6;
+    background:#fef4a9;
   }
   
   h1,
@@ -16,12 +16,9 @@ body {
     text-decoration: underline !important;
   }
   
-  a:hover,
-  a:visited,
-  a:active,
-  a:link {
+  h4 a:hover {
     text-decoration: none;
-    color: #333;
+    color: #3b9a9c;
   }
   
   .pageTitle,
@@ -30,7 +27,7 @@ body {
     color: white;
   }
   
-  .search_box,
+  /* .search_box,
   .searchSubmit,
   #randomPage {
     height: 4rem;
@@ -40,24 +37,27 @@ body {
     display: inline-block;
     margin: 2.2rem auto 1.5em;
     padding: .5rem 1rem;
+  } */
+  .form-group{
+    margin-top: 2rem;
   }
-  
-  .search_box {
-    font-size: 2rem;
+  /* .search_box {
+    font-size: 1.5rem;
     width: 400px;
     background: #fff;
     border: .5px solid #ccc;
     box-shadow: inset 0 0 0 .1em #ccc;
-    border-radius: .1em;
+    border-radius: .5em;
   }
-  
+   */
   .searchSubmit,
   #randomPage {
     font-weight: 70;
+    margin: 1rem 0;
     color: #fff;
     cursor: pointer;
-    background-color: #165c91;
-    border: 1px solid #165c91;
+    background-color:#4bc2c5;
+    border: 1px solid#4bc2c5;
     text-align: center;
   }
   
@@ -73,10 +73,9 @@ body {
   .results {
     font-size: 2rem;
     max-width: 800px;
-    background: #fff;
-    border: .5px solid #ccc;
-    box-shadow: inset 0 0 0 .1em #ccc;
-    border-radius: .1em;
+    background: #fef4cf;
+    box-shadow: inset 0 0 0 .1em rgb(234, 240, 239);
+    border-radius: .5em;
     padding: 1rem;
     margin: .2rem;
   }
@@ -91,13 +90,10 @@ body {
   http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
   
   * {
-    margin: 0;
+    box-sizing: border-box;
   }
   
-  html,
-  body {
-    height: 100%;
-  }
+
   
   .wrapper {
     min-height: 100%; 
@@ -109,16 +105,19 @@ body {
   
   .footer,
   .push {
-    clear: both;
+    
   }
   
   .footer {
-    min-height: 4em;
-    background-color: rgba(12, 33, 38, 0.5);
+    height: 3rem;
+    background-color: #3b9a9c;
   }
   
-  .footer-menu-divider,
+
   .copyright {
     color: white;
   }
+
+
+
   
